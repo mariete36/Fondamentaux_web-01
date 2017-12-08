@@ -2,8 +2,10 @@
 Shell / Interface graphique Liste des commandes essentielles du shell
 
 ## Contributeurs :
-* https://github.com/yip-theodore
-* https://github.com/mariete36
-* https://github.com/enneade
-* https://github.com/SophieChieko
-* https://github.com/ShonhTan
+* Pham Vincent: https://github.com/ShonhTan
+* Yip Théodore: https://github.com/yip-theodore
+* Te Marie: https://github.com/mariete36
+* Papin Laure: https://github.com/enneade
+* Mémeint Sophie: https://github.com/SophieChieko
+
+:)
