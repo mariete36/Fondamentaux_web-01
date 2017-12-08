@@ -1,2 +1,2 @@
 # Exposé choisi :
-Session et cookies
+Shell / Interface graphique Liste des commandes essentielles du shell
