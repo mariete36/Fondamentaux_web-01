@@ -6,3 +6,6 @@
 * https://techterms.com/definition/shell
 * http://searchdatacenter.techtarget.com/definition/shell
 * http://linuxcommand.org/lc3_lts0010.php
+* http://cyberzoide.developpez.com/unix/shell.php3
+* https://openclassrooms.com/courses/reprenez-le-controle-a-l-aide-de-linux/introduction-aux-scripts-shell
+* http://www.tuteurs.ens.fr/unix/shell/
