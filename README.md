@@ -8,4 +8,4 @@ Shell / Interface graphique Liste des commandes essentielles du shell
 * Papin Laure: https://github.com/enneade
 * Mémeint Sophie: https://github.com/SophieChieko
 
-:) lol
+:) coucou
