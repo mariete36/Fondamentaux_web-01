@@ -62,11 +62,11 @@ Le shell qui s’ouvre par défaut dans le terminal est bash, alors que dans le 
 ## V - Le Shell sur Mac (THEO)
 ### :file_folder: [ Repertoires ]
 
-ALLER À              ||
+ALLER              ||
 -------------------- | ----------------------------------------------
-**cd** */path*  | dans le répertoire spécifié
-**cd**               | retourner sur la home
-**cd ..**	           | retourner dans le répertoire parent
+**cd** */path*       | au répertoire spécifié
+**cd**               | à la home
+**cd ..**	           | au répertoire parent
 
 CRÉER            ||
 ---------------- | --------------------------------------------------
