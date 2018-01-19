@@ -62,9 +62,9 @@ Le shell qui s’ouvre par défaut dans le terminal est bash, alors que dans le 
 ## V - Le Shell sur Mac (THEO)
 ### :file_folder: [ Repertoires ]
 
-NAVIGUER              ||
+ALLER À              ||
 -------------------- | ----------------------------------------------
-**cd** /Desktop/dir  | entrer dans le répertoire spécifié
+**cd** */path*  | dans le répertoire spécifié
 **cd**               | retourner sur la home
 **cd ..**	           | retourner dans le répertoire parent
 
@@ -74,17 +74,17 @@ CRÉER            ||
 
 AFFICHER    ||
 ----------- | -------------------------------------------------------
-**pwd**     | afficher le chemin du répertoire actuel
-**ls -ld**	|	afficher la description du répertoire actuel
-**ls**      |	afficher le contenu d’un répertoires
-**ls -l**	  |	afficher la description détaillé du contenu
-**ls -a**	  |	afficher les fichiers cachés (ceux qui commencent par . )
-**ls -R**	  |	afficher récursivement (intégralement) le contenu
+**pwd**     | le chemin du répertoire courant
+**ls -ld**	|	la description du répertoire courant
+**ls**      |	le contenu
+**ls -l**	  |	la description du contenu
+**ls -a**	  |	tout le contenu (même les fichiers cachés)
+**ls -R**	  |	récursivement (intégralement) le contenu
 
 
 SUPPRIMER          ||
 ------------------- | ----------------------------------------------
-**rm** file | supprime *file*
+**rm -rf** dir/ | supprime *dir/*
 
 ### :page_facing_up: [ Fichiers ]
 CRÉER                    ||
@@ -94,7 +94,7 @@ CRÉER                    ||
 
 AFFICHER                    ||
 ------------------------- | ----------------------
-**more** file.txt      | affiche le contenu
+**cat** file.txt      | le contenu de *file.txt*
 
 
 COPIER                    ||
@@ -108,7 +108,7 @@ DÉPLACER / RENOMMER                    ||
 
 SUPPRIMER          ||
 ------------------- | ----------------------------------------------
-**rm -f** file | supprime *file*
+**rm -f** file.txt | supprime *file.txt*
 
 ### :zap: [ Bonus ]
 AIDE ||
