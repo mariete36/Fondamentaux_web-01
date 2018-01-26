@@ -70,12 +70,18 @@ ALLER              ||
 
 CRÉER            ||
 ---------------- | --------------------------------------------------
-**mkdir** dir | créer un répertoire nommé *dir*
+**mkdir** dir | un répertoire nommé *dir*
+
+OUVRIR              ||
+-------------------- | ----------------------------------------------
+**open** */path*       | dans le finder
+**atom** dir               | avec atom
 
 AFFICHER    ||
 ----------- | -------------------------------------------------------
 **pwd**     | le chemin du répertoire courant
 **ls -ld**	|	la description du répertoire courant
+ |
 **ls**      |	le contenu
 **ls -l**	  |	la description du contenu
 **ls -a**	  |	tout le contenu (même les fichiers cachés)
@@ -91,6 +97,9 @@ CRÉER                    ||
 ------------------------- | ----------------------
 **touch** file.txt      | créer un fichier
 
+OUVRIR                    ||
+------------------------- | ----------------------
+**open** file.txt      | un fichier (avec l'appli par défault)
 
 AFFICHER                    ||
 ------------------------- | ----------------------
@@ -111,17 +120,17 @@ SUPPRIMER          ||
 **rm -f** file.txt | supprime *file.txt*
 
 ### :zap: [ Bonus ]
-AIDE ||
---- | ---
-**man** echo | Affiche la doc de la commande [ **q** pour quitter ]
-
-
 DIVERS                 ||
 ---------------------- | ------------------------------------------------
 variable**=**salut       | créer une variable
 **echo $**variable     | afficher le contenu de la variable
 **banner $**variable    | c tré coul
-**rm -rf /***       | :skull: :skull: :skull: :skull: :skull:
+**sudo** *rm* | donne les droits d'admin pour la commande
+**rm -rf /\***       | :skull: :skull: :skull:
+
+AIDE ||
+--- | ---
+**man** *echo* | Affiche le manuel d'une commande [ **q** pour quitter ]
 
 TIPS               ||
 ------------------ | ------------------------------------------------
