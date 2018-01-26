@@ -9,18 +9,17 @@
 
 ## I -Introduction (Marie)
 
-Le shell (en français “interface système” ou “coque logicielle”) est le programme qu’on utilise régulièrement sur les machines telles que Mac, PC etc, et qui interprète les commandes. C’est un outil en mode texte qui permet l’exploitation d’un grand nombre de ressources de l’ordinateur.
+Le shell (en français “interface système” ou “coque logicielle”) est le programme qu’on utilise régulièrement sur les machines telles que Mac, PC etc. C’est un outil en mode texte qui permet l’exploitation d’un grand nombre de ressources de l’ordinateur.
 
 Le shell utilise 2 type d’interface :
-* L'interpréteur en ligne de commande (CLI : command line interface).
-* L'interface graphique (GUI: graphical user interface) comme l'explorateur Windows.
+* **L'interpréteur en ligne de commande** (CLI : command line interface).
+* **L'interface graphique** (GUI: graphical user interface) comme l'explorateur Windows.
 
-Sur Windows:
-* l’interface graphique correspond à l’explorateur Windows.
-*  L’interpréteur en ligne de commande est accessible depuis le Terminal (cmd.exe).
+Sur **Windows**, l’interface graphique correspond à l’explorateur Windows. L’interpréteur en ligne de commande est accessible depuis **l’Invite de commandes** (cmd.exe) ou **PowerShell**.
 
-Depuis la sortie de Mac OS X, un système d'exploitation de la famille des Unix, les Mac disposent d'un shell qui est accessible par l'intermédiaire de l'utilitaire Terminal.
-Terminal est particulièrement apprécié des utilisateurs avancés de Mac OS X pour personnaliser des fonctions système, créer des scripts shell et résoudre des problèmes de fonctionnement de Mac OS X.
+**Depuis la sortie de Mac OS X**, un système d'exploitation de la famille des Unix, les Mac disposent d'un shell qui est accessible par l'intermédiaire de l'utilitaire **Terminal**. Pour Mac OS X, le nom de l’interface graphique est **Aqua**.
+
+**Terminal** est particulièrement apprécié des utilisateurs avancés de Mac OS X pour personnaliser des fonctions système, créer des scripts shell et résoudre des problèmes de fonctionnement de Mac OS X.
 
 ![Command Line Interface (Windows)](img/cli.png) | ![Graphical User Interface (Windows)](img/gui.png)
 :--: | :--:
@@ -70,36 +69,45 @@ ALLER              ||
 
 CRÉER            ||
 ---------------- | --------------------------------------------------
-**mkdir** dir | créer un répertoire nommé *dir*
+**mkdir** dir | un répertoire *dir*
+
+OUVRIR              ||
+-------------------- | ----------------------------------------------
+**open** */path*       | dans le finder
+**atom** dir               | avec atom
 
 AFFICHER    ||
 ----------- | -------------------------------------------------------
 **pwd**     | le chemin du répertoire courant
 **ls -ld**	|	la description du répertoire courant
+ |
 **ls**      |	le contenu
-**ls -l**	  |	la description du contenu
+**ls -l**	  |	le contenu + sa description
 **ls -a**	  |	tout le contenu (même les fichiers cachés)
 **ls -R**	  |	récursivement (intégralement) le contenu
 
 
 SUPPRIMER          ||
 ------------------- | ----------------------------------------------
-**rm -rf** dir/ | supprime *dir/*
+**rm -rf** dir/ | le répertoire *dir/*
 
 ### :page_facing_up: [ Fichiers ]
 CRÉER                    ||
 ------------------------- | ----------------------
-**touch** file.txt      | créer un fichier
+**touch** file.txt      | un fichier *file.txt*
 
+OUVRIR                    ||
+------------------------- | ----------------------
+**open** file.txt      | le fichier (avec l'appli par défault)
 
 AFFICHER                    ||
 ------------------------- | ----------------------
-**cat** file.txt      | le contenu de *file.txt*
+**cat** file.txt      | *file.txt* dans le terminal
 
 
 COPIER                    ||
 ------------------------- | ----------------------
-**cp -i** file1 file2      | copie le contenu de *file1* dans *file2*
+**cp -i** file1 file2      | *file1* dans *file2*
 
 DÉPLACER / RENOMMER                    ||
 ------------------------- | ----------------------
@@ -108,25 +116,25 @@ DÉPLACER / RENOMMER                    ||
 
 SUPPRIMER          ||
 ------------------- | ----------------------------------------------
-**rm -f** file.txt | supprime *file.txt*
+**rm -f** file.txt | *file.txt*
 
 ### :zap: [ Bonus ]
-AIDE ||
---- | ---
-**man** echo | Affiche la doc de la commande [ **q** pour quitter ]
-
-
 DIVERS                 ||
 ---------------------- | ------------------------------------------------
 variable**=**salut       | créer une variable
-**echo $**variable     | afficher le contenu de la variable
+**echo $**variable     | afficher la variable (*salut*)
 **banner $**variable    | c tré coul
-**rm -rf /***       | :skull: :skull: :skull: :skull: :skull:
+**sudo** *rm* | donne les droits d'admin n'importe quelle commande
+**rm -rf /\***       | :skull: :skull: :skull:
+
+AIDE ||
+--- | ---
+**man** *echo* | affiche le manuel d'une commande [ **q** pour quitter ]
 
 TIPS               ||
 ------------------ | ------------------------------------------------
-*{up/down arrows}* | ré-afficher les commandes précédentes
-*{tab}*     | auto-complète
+*{up / down arrows}* | réécrit la commande d'avant / d'après
+*{tab}*     | auto-complétion
 
 
 ## VI - Le Shell sur Windows (cmd.exe)
