@@ -76,12 +76,11 @@ OUVRIR              ||
 **open** */path*       | dans le finder
 **atom** dir               | avec atom
 
-AFFICHER    ||
+AFFICHER    | |
 ----------- | -------------------------------------------------------
 **pwd**     | le chemin du répertoire courant
 **ls -ld**	|	la description du répertoire courant
- |
-**ls**      |	le contenu
+**ls**        |	le contenu
 **ls -l**	  |	le contenu + sa description
 **ls -a**	  |	tout le contenu (même les fichiers cachés)
 **ls -R**	  |	récursivement (intégralement) le contenu
@@ -121,9 +120,9 @@ SUPPRIMER          ||
 ### :zap: [ Bonus ]
 DIVERS                 ||
 ---------------------- | ------------------------------------------------
-variable**=**salut       | créer une variable
-**echo $**variable     | afficher la variable (*salut*)
-**banner $**variable    | c tré coul
+variable<b>=</b>salut       | créer une variable
+<b>echo $</b>variable     | afficher la variable (*salut*)
+<b>banner $</b>variable    | c tré coul
 **sudo** *rm* | donne les droits d'admin n'importe quelle commande
 **rm -rf /\***       | :skull: :skull: :skull:
 
@@ -172,7 +171,7 @@ Copie                             ||
 Supression                        ||
 --------------------------------- | ---------------------------------------
 **del** nomfichier (nomfichier2…) |	supprimer le(s) fichier(s)
-**del** /f nomfichier             | forcer la suppression
+**del /f** nomfichier             | forcer la suppression
 **del** exemple*                  | supprime tous les fichiers dont le nom commence par *exemple*
 **rmdir** nomdurepertoire         | supprimer le répertoire vide
 **rmdir** /S nomdurepertoire      | supprimer le répertoire non vide
